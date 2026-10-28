@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: #F7FAF7;
+    color: #1B2620;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
+    line-height: 1.6;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, ::before, ::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+/* 6 Independent Card Floating Motions (PC & Mobile) */
+@keyframes floatCard1 {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-7px) rotate(0.4deg); }
+}
+
+@keyframes floatCard2 {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-9px) rotate(-0.5deg); }
+}
+
+@keyframes floatCard3 {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-6px) rotate(0.3deg); }
+}
+
+@keyframes floatCard4 {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-8px) rotate(-0.4deg); }
+}
+
+@keyframes floatCard5 {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-7px) rotate(0.5deg); }
+}
+
+@keyframes floatCard6 {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-9px) rotate(-0.3deg); }
+}
+
+.animate-float-1 { animation: floatCard1 4.2s ease-in-out infinite; }
+.animate-float-2 { animation: floatCard2 4.9s ease-in-out 0.7s infinite; }
+.animate-float-3 { animation: floatCard3 3.9s ease-in-out 1.3s infinite; }
+.animate-float-4 { animation: floatCard4 4.5s ease-in-out 0.4s infinite; }
+.animate-float-5 { animation: floatCard5 4.1s ease-in-out 1.1s infinite; }
+.animate-float-6 { animation: floatCard6 4.7s ease-in-out 1.8s infinite; }
+
+/* Shine Gleam Animation */
+@keyframes shimmerGleam {
+  0% { transform: translateX(-150%); }
+  100% { transform: translateX(250%); }
+}
+
+.animate-shimmer {
+  animation: shimmerGleam 2.8s infinite;
+}

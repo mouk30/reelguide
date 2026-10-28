@@ -1,0 +1,6 @@
+{
+  "name": "그린가디언 - 릴게임 정보 허브",
+  "description": "릴게임 사이트 그린가디언에서 다양한 릴게임의 종류와 특징, 이용 방법 및 게임별 정보를 확인하세요. 릴게임을 찾는 이용자들을 위한 핵심 정보와 유용한 가이드를 한눈에 살펴보세요.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

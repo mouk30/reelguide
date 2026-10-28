@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#176B4B" />
+      <stop offset="100%" stop-color="#103B2C" />
+    </linearGradient>
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#B7DB76" />
+      <stop offset="100%" stop-color="#79B850" />
+    </linearGradient>
+  </defs>
+  <!-- Background Rounded Rect -->
+  <rect width="512" height="512" rx="112" fill="#103B2C" />
+  
+  <!-- Outer Shield Outline -->
+  <path d="M 256 64 C 360 64 420 100 420 180 C 420 310 256 432 256 448 C 256 448 92 310 92 180 C 92 100 152 64 256 64 Z" 
+        fill="url(#shieldGrad)" stroke="#B7DB76" stroke-width="12" />
+        
+  <!-- Stylized G + Leaf Emblem inside shield -->
+  <!-- Outer Arc of G -->
+  <path d="M 296 160 C 230 148 168 190 168 256 C 168 322 224 366 296 362 C 344 358 376 332 376 288 L 264 288 L 264 246 L 416 246 C 418 360 336 406 256 406 C 146 406 122 320 122 256 C 122 178 178 116 280 116 C 322 116 360 132 390 160 L 350 196 C 330 178 308 168 280 164 Z" 
+        fill="#FFFFFF" opacity="0.96" />
+        
+  <!-- Sprouting Guardian Leaf on Top Right -->
+  <path d="M 256 120 C 310 80 370 110 370 160 C 330 168 270 144 256 120 Z" 
+        fill="url(#leafGrad)" />
+</svg>

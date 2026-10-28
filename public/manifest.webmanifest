@@ -1,0 +1,26 @@
+{
+  "name": "그린가디언 - 릴게임 정보 허브",
+  "short_name": "그린가디언",
+  "description": "릴게임 사이트 그린가디언에서 다양한 릴게임의 종류와 특징, 이용 방법 및 게임별 정보를 확인하세요.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#103B2C",
+  "theme_color": "#103B2C",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
